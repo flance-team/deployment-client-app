@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { Dialog, Menu, Transition } from "@headlessui/react";
 import {
   Bars3CenterLeftIcon,
@@ -26,6 +26,16 @@ import {
 import NavbarEmployer from "../../components/NavbarEmployer";
 
 const EmployerDepositV2 = () => {
+  useEffect(() => {
+    if (!localStorage.getItem("access_token")) {
+      router.push("/");
+    }
+
+    if (localStorage.getItem("role") === "user") {
+      router.push("/UserHome");
+    }
+  }, []);
+
   const navigation = [
     { name: "Home", href: "#", icon: HomeIcon, current: true },
     { name: "History", href: "#", icon: ClockIcon, current: false },
