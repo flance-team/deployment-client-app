@@ -7,7 +7,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import CurrencyInput from "react-currency-input-field";
 import { useRouter } from "next/navigation";
 
-const base_url_server = "http://localhost:3000";
+const base_url_server = "https://flance-app-api.tianweb.dev";
 
 const EmployerListEmployee = () => {
   const [employees, setEmployees] = useState([]);

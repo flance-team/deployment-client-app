@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Loading from "../../components/Loading";
-const base_url_server = "http://localhost:3000";
+const base_url_server = "https://flance-app-api.tianweb.dev";
 const SignUpForm = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);

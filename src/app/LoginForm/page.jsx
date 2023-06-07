@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const LoginForm = () => {
   const router = useRouter();
-  const base_url_server = "http://localhost:3000";
+  const base_url_server = "https://flance-app-api.tianweb.dev";
   const [formValue, setFormValue] = useState({
     email: "",
     password: "",

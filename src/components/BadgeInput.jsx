@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://flance-app-api.tianweb.dev";
 
 const BadgeInput = ({ onBadgesChange }) => {
   const [inputValue, setInputValue] = useState("");
