@@ -1,14 +1,14 @@
 "use client";
 import React, { useEffect, useState, Fragment, useRef } from "react";
 import axios from "axios";
-import NavbarEmployer from "../components/NavbarEmployer";
+import NavbarEmployer from "../../components/NavbarEmployer";
 import Swal from "sweetalert2";
-import Loading from "../components/Loading";
+import Loading from "../../components/Loading";
 import { Dialog, Transition } from "@headlessui/react";
 import CurrencyInput from "react-currency-input-field";
 import { useRouter } from "next/navigation";
 
-const base_url_server = "https://flance-app-api.tianweb.dev";
+const base_url_server = "http://localhost:3000";
 
 const EmployerListEmployee = () => {
   const [employees, setEmployees] = useState([]);

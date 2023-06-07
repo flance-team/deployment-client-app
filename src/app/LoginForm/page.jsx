@@ -3,12 +3,12 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
-import Loading from "../components/Loading";
+import Loading from "../../components/Loading";
 import Link from "next/link";
 
 const LoginForm = () => {
   const router = useRouter();
-  const base_url_server = "https://flance-app-api.tianweb.dev";
+  const base_url_server = "http://localhost:3000";
   const [formValue, setFormValue] = useState({
     email: "",
     password: "",
