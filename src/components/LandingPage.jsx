@@ -1,13 +1,13 @@
 "use client";
 import Head from "next/head";
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { PrimaryFeatures } from "../components/PrimaryFeatures";
-import { SecondaryFeatures } from "../components/SecondaryFeatures";
-import { CallToAction } from "../components/CallToAction";
-import { Testimonials } from "../components/Testimonials";
-import { Faqs } from "../components/Faqs";
-import { Footer } from "../components/Footer";
+import { Header } from "@/app/components/Header";
+import { Hero } from "@/app/components/Hero";
+import { PrimaryFeatures } from "@/app/components/PrimaryFeatures";
+import { SecondaryFeatures } from "@/app/components/SecondaryFeatures";
+import { CallToAction } from "@/app/components/CallToAction";
+import { Testimonials } from "@/app/components/Testimonials";
+import { Faqs } from "@/app/components/Faqs";
+import { Footer } from "@/app/components/Footer";
 import { useRouter } from "next/navigation";
 
 const LandingPage = () => {
