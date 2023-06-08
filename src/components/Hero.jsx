@@ -39,7 +39,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         {/* <Button href="/register">Get 6 months free</Button> */}
-        <Button href="" variant="outline">
+        <Button href="https://youtu.be/XywyKJJ2HYU" variant="outline">
           <svg
             aria-hidden="true"
             className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
