@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
-const base_url_server = "http://localhost:3000";
+const base_url_server = "https://flance-app-api.tianweb.dev";
 
 const EmployerListEmployee = () => {
   const [employees, setEmployees] = useState([]);

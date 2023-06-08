@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 const UserAcceptOffer = () => {
   const [open, setOpen] = useState(false);
   const cancelButtonRef = useRef(null);
-  const base_url_server = "http://localhost:3000";
+  const base_url_server = "https://flance-app-api.tianweb.dev";
   const [data, setData] = useState();
   const [loading, setLoading] = useState(false);
   const [detailJob, setDetailJob] = useState();

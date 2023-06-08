@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://flance-app-api.tianweb.dev";
 import axios from "axios";
 import Swal from "sweetalert2";
 

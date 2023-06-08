@@ -16,7 +16,7 @@ import Link from "next/link";
 const NavBarUser = () => {
   const router = useRouter();
 
-  const base_url_server = "http://localhost:3000";
+  const base_url_server = "https://flance-app-api.tianweb.dev";
   const [balance, setBalance] = useState();
   const [imgProfile, setimgProfile] = useState();
 
