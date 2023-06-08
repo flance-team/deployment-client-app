@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Loading from "../../components/Loading";
 import Link from "next/link";
-const base_url_server = "https://flance-app-api.tianweb.dev";
+const base_url_server = "http://localhost:3000";
 const SignUpForm = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);

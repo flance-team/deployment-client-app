@@ -6,7 +6,7 @@ import NavBarUser from "../../components/navbarUser";
 import CurrencyInput from "react-currency-input-field";
 import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
-const baseUrl = `https://flance-app-api.tianweb.dev`;
+const baseUrl = `http://localhost:3000`;
 
 const UserDeposit = () => {
   const router = useRouter();

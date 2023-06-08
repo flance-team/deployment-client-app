@@ -8,7 +8,7 @@ import Swal from "sweetalert2";
 import BadgeInput from "../../components/BadgeInput";
 import Loading from "../../components/Loading";
 import Link from "next/link";
-const base_url_server = "https://flance-app-api.tianweb.dev";
+const base_url_server = "http://localhost:3000";
 
 const SignUpForm = () => {
   const router = useRouter();

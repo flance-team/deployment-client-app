@@ -7,7 +7,7 @@ import { BanknotesIcon } from "@heroicons/react/20/solid";
 import NavbarEmployer from "@/components/NavbarEmployer";
 import Swal from "sweetalert2";
 
-const baseUrl = `https://flance-app-api.tianweb.dev`;
+const baseUrl = `http://localhost:3000`;
 
 const EmployerDepositV2 = () => {
   const [balance, setBalance] = useState(0);
